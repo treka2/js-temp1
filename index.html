@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>js temp</title>
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- gog fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/temp.css" />
+  </head>
+  <body>
+    <main>
+      <div class="setting">
+        <div class="icon">
+          <i class="fa-solid fa-gear"></i>
+        </div>
+        <div class="chose-setting">
+          <div class="setting-box">
+            <div class="color-set">
+              <h4 style="color: rgb(77, 77, 77)">choose color:</h4>
+              <ul>
+                <li
+                  class="chosen-clr"
+                  style="background: #f2552e"
+                  data-clr="#f2552e"
+                ></li>
+                <li style="background: #009688" data-clr="#009688"></li>
+                <li style="background: #9c27b0" data-clr="#9c27b0"></li>
+                <li style="background: #ffeb3b" data-clr="#ffeb3b"></li>
+                <li style="background: #d31336" data-clr="#d31336"></li>
+                <li style="background: #03a9f4" data-clr="#03a9f4"></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="setting-box background">
+            <h4 style="color: rgb(77, 77, 77)">backgroud</h4>
+            <span>Auto change?</span>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="switcher"></span>
+            </label>
+            <div class="imgs-holder">
+              <img src="./imgs/m03.jpg" alt="" />
+              <img src="./imgs/m02.jpg" alt="" />
+              <img src="./imgs/m04.jpg" alt="" />
+              <img src="./imgs/m05.jpg" alt="" />
+              <img src="./imgs/m07.jpg" alt="" />
+              <img src="./imgs/m09.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="reset-setting">
+          <button class="reset-setting">Reset All</button>
+        </div>
+      </div>
+      <div class="go-up">
+        <i class="fa-solid fa-chevron-up"></i>
+      </div>
+      <section class="landing" id="home">
+        <nav>
+          <div class="burger">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+          <div class="logo"><span>L</span>ogo</div>
+          <ul class="links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="intro">
+          <h2>Code Better <span>Code</span> Faster</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            repellendus autem atque?
+          </p>
+        </div>
+      </section>
+      <section class="services" id="Services">
+        <div class="container">
+          <h2 class="main-heading">services</h2>
+          <p>Our Company Offer WebDesign And Development</p>
+          <div class="servs-boxes">
+            <div class="serv-box">
+              <div class="serve-icon">
+                <i class="fa-solid fa-desktop fa-2x"></i>
+              </div>
+
+              <h3>Web Design</h3>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus, molestias?
+              </p>
+              <button>Read More</button>
+            </div>
+            <div class="serv-box">
+              <div class="serve-icon">
+                <i class="fa-solid fa-laptop-code fa-2x"></i>
+              </div>
+              <h3>Web Development</h3>
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus, molestias?
+              </p>
+              <button>Read More</button>
+            </div>
+            <div class="serv-box">
+              <div class="serve-icon">
+                <i class="fa-solid fa-magnifying-glass-dollar fa-2x"></i>
+              </div>
+              <h3>SEO</h3>
+
+              <hr />
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus, molestias?
+              </p>
+              <button>Read More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <div class="container">
+          <h2 class="main-heading">Our Skills</h2>
+          <div class="skills-holder">
+            <div class="skill">
+              <h4>HTML</h4>
+              <span class="skill-prog" data-prog="70%"></span>
+            </div>
+            <div class="skill">
+              <h4>CSS</h4>
+              <span class="skill-prog" data-prog="62%"></span>
+            </div>
+            <div class="skill">
+              <h4>JS</h4>
+              <span class="skill-prog" data-prog="57%"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery" id="gallery">
+        <h2 class="main-heading">Our gallery</h2>
+        <div class="container">
+          <div class="imgs-holder">
+            <img src="./imgs/m01.jpg" alt="img one" />
+            <img src="./imgs/m08.jpg" alt="img two" />
+            <img src="./imgs/m04.jpg" alt="img three" />
+            <img src="./imgs/m06.png" alt="" />
+            <img src="./imgs/m07.jpg" alt="" />
+            <img src="./imgs/m09.jpg" alt="img" />
+          </div>
+        </div>
+      </section>
+      <section class="timeline" id="timeline">
+        <h2 class="main-heading">Timeline</h2>
+        <div class="years">
+          <div class="year y19">
+            <span class="year-span">2019</span>
+            <p class="year-acheive">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque a, sint delectus velit rem aliquam optio quidem
+              incidunt aspernatur ad?
+            </p>
+          </div>
+          <div class="year y20">
+            <span class="year-span">2020</span>
+            <p class="year-acheive">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque a, sint delectus velit rem aliquam optio quidem
+              incidunt aspernatur ad?
+            </p>
+          </div>
+          <div class="year y21">
+            <span class="year-span">2021</span>
+            <p class="year-acheive">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque a, sint delectus velit rem aliquam optio quidem
+              incidunt aspernatur ad?
+            </p>
+          </div>
+          <div class="year y22">
+            <span class="year-span">2022</span>
+            <p class="year-acheive">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. delectus
+              velit rem aliquam optio quidem incidunt aspernatur ad?
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="features" id="features">
+        <h2 class="main-heading">Our Feature</h2>
+        <div class="container">
+          <div class="feats">
+            <div class="feat">
+              <div class="icon-img">
+                <img src="./imgs/Icon_01.png" alt="" />
+              </div>
+              <h3>Web Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus, molestias?
+              </p>
+            </div>
+            <div class="feat">
+              <div class="icon-img">
+                <img src="./imgs/Icon_02.png" alt="" />
+              </div>
+              <h3>Web Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus, molestias?
+              </p>
+            </div>
+            <div class="feat">
+              <div class="icon-img">
+                <img src="./imgs/Icon_03.png" alt="" />
+              </div>
+              <h3>Web Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus, molestias?
+              </p>
+            </div>
+            <div class="feat">
+              <div class="icon-img">
+                <img src="./imgs/Icon_04.png" alt="" />
+              </div>
+              <h3>Web Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus, molestias?
+              </p>
+            </div>
+            <div class="feat">
+              <div class="icon-img">
+                <img src="./imgs/Icon_05.png" alt="" />
+              </div>
+              <h3>Web Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus, molestias?
+              </p>
+            </div>
+            <div class="feat">
+              <div class="icon-img">
+                <img src="./imgs/Icon_06.png" alt="" />
+              </div>
+              <h3>Web Design</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloribus, molestias?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="spikes"></div>
+      <!-- TESTIMONOIAL  -->
+      <section class="testimonial">
+        <h2 class="main-heading">Testimonials</h2>
+        <p>some of our clients opinion</p>
+        <div class="direction-btns">
+          <span class="go-left">
+            <i class="fa-solid fa-angle-left fa-2x"></i>
+          </span>
+          <span class="go-right">
+            <i class="fa-solid fa-angle-right fa-2x"></i>
+          </span>
+        </div>
+        <div class="tests-container">
+          <div class="tests">
+            <div class="testi-slide">
+              <div class="cleint-opinion">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                  praesentium, voluptas aspernatur perspiciatis autem dolorem
+                  nostrum optio cumque sit modi?
+                </p>
+              </div>
+              <div class="client-box">
+                <img src="./imgs/leo.jpg" alt="Messi" />
+                <h4 class="client-name">Leo messi</h4>
+                <p class="cleint-information">The GOAT</p>
+              </div>
+            </div>
+            <div class="testi-slide">
+              <div class="cleint-opinion">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi
+                  earum debitis officiis ducimus laudantium a voluptate eius
+                  quibusdam animi tenetur.
+                </p>
+              </div>
+              <div class="client-box">
+                <img src="./imgs/benz.jpg" alt="Elbenzo" />
+                <h4 class="client-name">Benzema</h4>
+                <p class="cleint-information">The goverment</p>
+              </div>
+            </div>
+            <div class="testi-slide">
+              <div class="cleint-opinion">
+                <p>
+                  اللهم لك الحمد موقع للتعلم مش اكتر كله هبد وبتاع بس الحمدلله
+                  لسه عايشين وحاجه اخر عظمه minima deserunt quia dicta
+                  consectetur.its great handsome
+                </p>
+              </div>
+              <div class="client-box">
+                <img src="./imgs/m3.jpg" alt="me" />
+                <h4 class="client-name">Trekka</h4>
+                <p class="cleint-information">العبدلله</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pollets">
+          <i class="fa-regular fa-circle active"></i>
+          <i class="fa-regular fa-circle"></i>
+          <i class="fa-regular fa-circle"></i>
+        </div>
+      </section>
+      <!-- strt about us  -->
+      <section class="about-us" id="about-us">
+        <h2 class="main-heading">About Us</h2>
+        <p>show some information about us</p>
+        <div class="container">
+          <div class="about-info">
+            <h2>nothing important</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum rem
+              ad dicta.
+            </p>
+          </div>
+          <div class="about-img">
+            <img src="./imgs/a01.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h2 class="main-heading">Contact Us</h2>
+        <p>Send your message to us</p>
+        <div class="container">
+          <form action="">
+            <input
+              type="text"
+              name="name"
+              id="user-name"
+              placeholder="&#xf007; Name"
+            />
+            <input
+              type="email"
+              name="email"
+              id="user-email"
+              placeholder="&#xf0e0; Email"
+            />
+            <p>what service you interested in?</p>
+            <div class="interest-options">
+              <div class="interest-option">
+                <input type="checkbox" name="develop" id="develop" />
+                <label for="develop" class="develop"> Development </label>
+              </div>
+              <div class="interest-option">
+                <input type="checkbox" name="desgn" id="design" />
+                <label for="design" class="design"> Design </label>
+              </div>
+              <div class="interest-option">
+                <input type="checkbox" name="seo" id="seo" />
+                <label for="seo" class="seo"> SEO </label>
+              </div>
+            </div>
+            <textarea
+              name=""
+              id="message"
+              placeholder="&#xf304;  Message"
+            ></textarea>
+            <input
+              type="submit"
+              class="submit"
+              value="Send"
+              style="background-color: var(--main-color)"
+            />
+          </form>
+        </div>
+      </section>
+      <footer>
+        <div class="foot-info">
+          <div class="social-icons">
+            <i class="fa-brands fa-facebook-f face"></i>
+            <i class="fa-brands fa-instagram insta"></i>
+            <i class="fa-brands fa-twitter twitter"></i>
+            <i class="fa-brands fa-github githup"></i>
+          </div>
+          <div class="logo"><span>L</span>ogo</div>
+        </div>
+        <div class="copy-right">&copy;<span>2022</span> Trekka</div>
+      </footer>
+    </main>
+
+    <script src="./temp.js"></script>
+  </body>
+</html>
