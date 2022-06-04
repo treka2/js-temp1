@@ -1,11 +1,11 @@
 const landing = document.querySelector(".landing");
 let backgroundImgs = [
-  "../imgs/m01.jpg",
-  "../imgs/m02.jpg",
-  "../imgs/m04.jpg",
-  "../imgs/m05.jpg",
-  "../imgs/m07.jpg",
-  "../imgs/m09.jpg",
+  "./imgs/m01.jpg",
+  "./imgs/m02.jpg",
+  "./imgs/m04.jpg",
+  "./imgs/m05.jpg",
+  "./imgs/m07.jpg",
+  "./imgs/m09.jpg",
 ];
 
 //show settting
